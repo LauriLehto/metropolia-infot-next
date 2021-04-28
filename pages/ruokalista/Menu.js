@@ -14,7 +14,7 @@ const Menu = () => {
   useEffect(()=>{
     try{
       const result = axios({
-        url: 'https://cors-anywhere.herokuapp.com/https://foodandco.fi/modules/json/json/Index?costNumber=3208&language=fi',
+        url: 'https://localhost:3001/https://foodandco.fi/modules/json/json/Index?costNumber=3208&language=fi',
         method: 'get',
         mode: 'no-cors',
         headers: {
